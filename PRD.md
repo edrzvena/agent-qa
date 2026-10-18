@@ -109,11 +109,11 @@ Angka target adalah tebakan awal dan akan disesuaikan setelah eval pertama.
 ## 11. Struktur folder
 
 ```
-qa-agent/
+agent-qa/
   PRD.md
   README.md
   .env / .env.example
-  src/qa_agent/
+  src/agent_qa/
     browser/  detectors/  agent/  report/  cli.py
   dummy_app/   (Flask + bugs.json)
   evals/       (harness + hasil)
